@@ -10,34 +10,30 @@ public class ShTest extends BaseTest
 	Common support = new Common();
 	
 	@Test
-	public void buyTicketExistingCustomers()
+	public void buyTicketExistingCustomersPositive() throws Exception
 	{
-		
-		
-		support.clickBuyTicket();
-		support.accessCodeHandle();
+		support.beforeCart();
+		support.clickUpsellContinue();
 		
 		driver.findElementByClassName("login_title").isDisplayed();
 		
-		
 		//Positive Test	
-		driver.findElement(By.name("login_email")).sendKeys("");
-		driver.findElement(By.name("login_password")).sendKeys("");
+		driver.findElement(By.name("login_email")).sendKeys("personalchithi@gmail.com");
+		driver.findElement(By.name("login_password")).sendKeys("Myfamily01");
 		driver.findElement(By.xpath("//input[contains(@class,'action_button') and contains(@value,'Sign')]")).click();
 		
-		//Negative Test 1
-		/*int a =1;
+	}
+	
+	@Test
+	public void buyTicketExistingCustomersNegative() throws Exception
+	{
+		support.beforeCart();
+		support.clickUpsellContinue();
 		
-		if (a==1)
-		{
-			
-		}*/
-		
-		driver.findElement(By.name("login_email")).sendKeys(""); //Type in incorrect email
-		driver.findElement(By.name("login_password")).sendKeys(""); //Type in correct password
-		System.out.println("");
+		driver.findElement(By.name("login_email")).sendKeys("invalid@gmail.com"); //Type in incorrect email
+		driver.findElement(By.name("login_password")).sendKeys("InvalisdPass"); //Type in correct password
 		driver.findElement(By.xpath("//input[contains(@class,'action_button') and contains(@value,'Sign')]")).click();
-				
+		/*		
 		//Negative Test 2
 		driver.findElement(By.name("login_email")).sendKeys(""); //Type in correct email
 		driver.findElement(By.name("login_password")).sendKeys(""); //Type in incorrect password
@@ -47,7 +43,7 @@ public class ShTest extends BaseTest
 		driver.findElement(By.name("login_email")).sendKeys(""); //Type in incorrect email
 		driver.findElement(By.name("login_password")).sendKeys(""); //Type in incorrect password
 		driver.findElement(By.xpath("//input[contains(@class,'action_button') and contains(@value,'Sign')]")).click();
-		
+		*/
 	}
 		
 	@Test
