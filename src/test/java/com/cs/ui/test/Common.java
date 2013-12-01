@@ -32,16 +32,93 @@ public class Common extends BaseTest
 		
 		try 
 		{
-			driver.findElement(By.className("codesubmit")).click();
+			driver.findElement(By.name("codesubmit")).click();
 		}
 		
 		catch (Exception NoSuchElementException)
 		{
-			System.out.println("Code Submit button not found");
+			System.out.println("Code Unlock button not found");
+		}	
+		
+	}// end of accesscode method
+	
+	public void selectQuantity()
+	
+	{
+		try 
+		{
+			driver.findElement(By.xpath("//span[contains(@class,'quantity')]//span[contains(@class,'selectboxit-arrow-container')]")).click();
 		}
 		
+		catch (Exception NoSuchElementException)
+		{
+			System.out.println("Quantity button not found");
+		}	
+		
+		try 
+		{
+			driver.findElement(By.xpath("//form[@id='ticket_request']//li[@id='"+2+"']/a")).click();		}
+		
+		catch (Exception NoSuchElementException)
+		{
+			System.out.println("Quantity not found");
+		}	
+
+	}//end of selectQuantity method
+	
+	public void findTickets()
+	{
+		try 
+		{
+			driver.findElement(By.xpath("//input[@id='find_tickets']")).click();
+		}
+		
+		catch (Exception NoSuchElementException)
+		{
+			System.out.println("Find Tickets button not found");
+		}	
+
+	}//end of findTickets method
+	
+	public void clickContinue() throws Exception
+	{
+		Thread.sleep(3000);
+		try 
+		{
+			driver.findElement(By.xpath("//div[contains(@class,'action_button ajax_continue') and text()='Continue']")).click();
+		}
+		
+		catch (Exception NoSuchElementException)
+		{
+			System.out.println("Continue button not found");
+		}	
 		
 	}
+	
+	public void clickUpsellContinue() throws Exception
+	{
+		Thread.sleep(3000);
+		try 
+		{
+			driver.findElement(By.name("upsell_submit")).click();
+		}
+		
+		catch (Exception NoSuchElementException)
+		{
+			System.out.println("Upsell Continue button not found");
+		}	
+		
+	}
+	
+	public void beforeCart() throws Exception
+	{
+		clickBuyTicket();
+		accessCodeHandle();
+		selectQuantity();
+		findTickets();
+		clickContinue();
+	}
+	
 		
 	
 }

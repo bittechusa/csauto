@@ -19,7 +19,7 @@ public class BaseTest
 	public void end() throws Throwable
 	{
 		Thread.sleep(3000);
-		driver.close();
+		driver.quit();
 	}
 
 	
