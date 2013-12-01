@@ -7,11 +7,10 @@ public class ShahidulTest extends BaseTest
 {
 	Common support = new Common();
 	@Test
-	public void demo1()
+	public void demo1() throws Exception
 	{
-		support.clickBuyTicket();
-		support.accessCodeHandle();
-		support.selectQuantity();
+		support.beforeCart();
+		support.clickUpsellContinue();
 		
 	}
 

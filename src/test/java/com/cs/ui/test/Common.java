@@ -79,6 +79,46 @@ public class Common extends BaseTest
 		}	
 
 	}//end of findTickets method
+	
+	public void clickContinue() throws Exception
+	{
+		Thread.sleep(3000);
+		try 
+		{
+			driver.findElement(By.xpath("//div[contains(@class,'action_button ajax_continue') and text()='Continue']")).click();
+		}
+		
+		catch (Exception NoSuchElementException)
+		{
+			System.out.println("Continue button not found");
+		}	
+		
+	}
+	
+	public void clickUpsellContinue() throws Exception
+	{
+		Thread.sleep(3000);
+		try 
+		{
+			driver.findElement(By.name("upsell_submit")).click();
+		}
+		
+		catch (Exception NoSuchElementException)
+		{
+			System.out.println("Upsell Continue button not found");
+		}	
+		
+	}
+	
+	public void beforeCart() throws Exception
+	{
+		clickBuyTicket();
+		accessCodeHandle();
+		selectQuantity();
+		findTickets();
+		clickContinue();
+	}
+	
 		
 	
 }
