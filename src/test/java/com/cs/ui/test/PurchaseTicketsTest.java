@@ -10,7 +10,6 @@ public class PurchaseTicketsTest extends BaseTest
 	{
 		driver.findElement(By.xpath("//a[@href='?storeid=1217&menu=detail&eventid=32432']")).click();
 		
-		
 	}
 	
 
