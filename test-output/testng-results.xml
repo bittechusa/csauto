@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="4727" started-at="2013-12-01T03:56:56Z" finished-at="2013-12-01T03:57:00Z">
+  <suite name="Default suite" duration-ms="6100" started-at="2013-12-01T05:05:35Z" finished-at="2013-12-01T05:05:41Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="4727" started-at="2013-12-01T03:56:56Z" finished-at="2013-12-01T03:57:00Z">
-      <class name="com.cs.ui.test.PurchaseTicketsTest">
-        <test-method status="PASS" signature="start()[pri:0, instance:com.cs.ui.test.PurchaseTicketsTest@a6af882]" name="start" is-config="true" duration-ms="1282" started-at="2013-11-30T22:56:56Z" finished-at="2013-11-30T22:56:57Z">
+    <test name="Default test" duration-ms="6100" started-at="2013-12-01T05:05:35Z" finished-at="2013-12-01T05:05:41Z">
+      <class name="com.cs.ui.test.ShTest">
+        <test-method status="PASS" signature="start()[pri:0, instance:com.cs.ui.test.ShTest@41c58721]" name="start" is-config="true" duration-ms="1287" started-at="2013-12-01T00:05:35Z" finished-at="2013-12-01T00:05:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- start -->
-        <test-method status="PASS" signature="buyTickets()[pri:0, instance:com.cs.ui.test.PurchaseTicketsTest@a6af882]" name="buyTickets" duration-ms="280" started-at="2013-11-30T22:56:57Z" finished-at="2013-11-30T22:56:57Z">
+        <test-method status="PASS" signature="buyTicketExistingCustomers()[pri:0, instance:com.cs.ui.test.ShTest@41c58721]" name="buyTicketExistingCustomers" duration-ms="1771" started-at="2013-12-01T00:05:36Z" finished-at="2013-12-01T00:05:38Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- buyTickets -->
-        <test-method status="PASS" signature="end()[pri:0, instance:com.cs.ui.test.PurchaseTicketsTest@a6af882]" name="end" is-config="true" duration-ms="3023" started-at="2013-11-30T22:56:57Z" finished-at="2013-11-30T22:57:00Z">
+        </test-method> <!-- buyTicketExistingCustomers -->
+        <test-method status="PASS" signature="end()[pri:0, instance:com.cs.ui.test.ShTest@41c58721]" name="end" is-config="true" duration-ms="3021" started-at="2013-12-01T00:05:38Z" finished-at="2013-12-01T00:05:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- end -->
-      </class> <!-- com.cs.ui.test.PurchaseTicketsTest -->
+      </class> <!-- com.cs.ui.test.ShTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
