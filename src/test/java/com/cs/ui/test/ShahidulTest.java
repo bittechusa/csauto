@@ -11,6 +11,7 @@ public class ShahidulTest extends BaseTest
 	{
 		support.clickBuyTicket();
 		support.accessCodeHandle();
+		support.selectQuantity();
 		
 	}
 

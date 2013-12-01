@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="4589" started-at="2013-12-01T05:05:33Z" finished-at="2013-12-01T05:05:38Z">
+  <suite name="Default suite" duration-ms="5408" started-at="2013-12-01T05:19:59Z" finished-at="2013-12-01T05:20:04Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="4589" started-at="2013-12-01T05:05:33Z" finished-at="2013-12-01T05:05:38Z">
+    <test name="Default test" duration-ms="5408" started-at="2013-12-01T05:19:59Z" finished-at="2013-12-01T05:20:04Z">
       <class name="com.cs.ui.test.ShahidulTest">
-        <test-method status="PASS" signature="start()[pri:0, instance:com.cs.ui.test.ShahidulTest@1261d4d0]" name="start" is-config="true" duration-ms="592" started-at="2013-12-01T00:05:33Z" finished-at="2013-12-01T00:05:34Z">
+        <test-method status="PASS" signature="start()[pri:0, instance:com.cs.ui.test.ShahidulTest@215e8db2]" name="start" is-config="true" duration-ms="588" started-at="2013-12-01T00:19:59Z" finished-at="2013-12-01T00:20:00Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- start -->
-        <test-method status="PASS" signature="demo1()[pri:0, instance:com.cs.ui.test.ShahidulTest@1261d4d0]" name="demo1" duration-ms="972" started-at="2013-12-01T00:05:34Z" finished-at="2013-12-01T00:05:35Z">
+        <test-method status="PASS" signature="demo1()[pri:0, instance:com.cs.ui.test.ShahidulTest@215e8db2]" name="demo1" duration-ms="1795" started-at="2013-12-01T00:20:00Z" finished-at="2013-12-01T00:20:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- demo1 -->
-        <test-method status="PASS" signature="end()[pri:0, instance:com.cs.ui.test.ShahidulTest@1261d4d0]" name="end" is-config="true" duration-ms="3012" started-at="2013-12-01T00:05:35Z" finished-at="2013-12-01T00:05:38Z">
+        <test-method status="PASS" signature="end()[pri:0, instance:com.cs.ui.test.ShahidulTest@215e8db2]" name="end" is-config="true" duration-ms="3011" started-at="2013-12-01T00:20:01Z" finished-at="2013-12-01T00:20:04Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- end -->
