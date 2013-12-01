@@ -117,6 +117,18 @@ public class Common extends BaseTest
 		selectQuantity();
 		findTickets();
 		clickContinue();
+		clickUpsellContinue();
+	}
+	
+	public void verifyElementPresent(By by, String eleName) throws Exception
+	{
+		Thread.sleep(3000);
+		if(driver.findElements(by).size() != 0){
+			System.out.println(eleName + "elemnet present");
+			}
+		else{
+			System.out.println(eleName + "element not found");
+			}
 	}
 	
 		

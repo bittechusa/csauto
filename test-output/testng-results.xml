@@ -2,45 +2,24 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-<<<<<<< HEAD
-  <suite name="Default suite" duration-ms="6100" started-at="2013-12-01T05:05:35Z" finished-at="2013-12-01T05:05:41Z">
+  <suite name="Default suite" duration-ms="20941" started-at="2013-12-01T19:44:24Z" finished-at="2013-12-01T19:44:45Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="6100" started-at="2013-12-01T05:05:35Z" finished-at="2013-12-01T05:05:41Z">
-      <class name="com.cs.ui.test.ShTest">
-        <test-method status="PASS" signature="start()[pri:0, instance:com.cs.ui.test.ShTest@41c58721]" name="start" is-config="true" duration-ms="1287" started-at="2013-12-01T00:05:35Z" finished-at="2013-12-01T00:05:36Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- start -->
-        <test-method status="PASS" signature="buyTicketExistingCustomers()[pri:0, instance:com.cs.ui.test.ShTest@41c58721]" name="buyTicketExistingCustomers" duration-ms="1771" started-at="2013-12-01T00:05:36Z" finished-at="2013-12-01T00:05:38Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- buyTicketExistingCustomers -->
-        <test-method status="PASS" signature="end()[pri:0, instance:com.cs.ui.test.ShTest@41c58721]" name="end" is-config="true" duration-ms="3021" started-at="2013-12-01T00:05:38Z" finished-at="2013-12-01T00:05:41Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- end -->
-      </class> <!-- com.cs.ui.test.ShTest -->
-=======
-  <suite name="Default suite" duration-ms="13827" started-at="2013-12-01T05:42:15Z" finished-at="2013-12-01T05:42:29Z">
-    <groups>
-    </groups>
-    <test name="Default test" duration-ms="13827" started-at="2013-12-01T05:42:15Z" finished-at="2013-12-01T05:42:29Z">
+    <test name="Default test" duration-ms="20941" started-at="2013-12-01T19:44:24Z" finished-at="2013-12-01T19:44:45Z">
       <class name="com.cs.ui.test.ShahidulTest">
-        <test-method status="PASS" signature="start()[pri:0, instance:com.cs.ui.test.ShahidulTest@11ad1594]" name="start" is-config="true" duration-ms="529" started-at="2013-12-01T00:42:15Z" finished-at="2013-12-01T00:42:16Z">
+        <test-method status="PASS" signature="start()[pri:0, instance:com.cs.ui.test.ShahidulTest@14654146]" name="start" is-config="true" duration-ms="789" started-at="2013-12-01T14:44:24Z" finished-at="2013-12-01T14:44:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- start -->
-        <test-method status="PASS" signature="demo1()[pri:0, instance:com.cs.ui.test.ShahidulTest@11ad1594]" name="demo1" duration-ms="10267" started-at="2013-12-01T00:42:16Z" finished-at="2013-12-01T00:42:26Z">
+        <test-method status="PASS" signature="removeAll()[pri:0, instance:com.cs.ui.test.ShahidulTest@14654146]" name="removeAll" duration-ms="17051" started-at="2013-12-01T14:44:25Z" finished-at="2013-12-01T14:44:42Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- demo1 -->
-        <test-method status="PASS" signature="end()[pri:0, instance:com.cs.ui.test.ShahidulTest@11ad1594]" name="end" is-config="true" duration-ms="3013" started-at="2013-12-01T00:42:26Z" finished-at="2013-12-01T00:42:29Z">
+        </test-method> <!-- removeAll -->
+        <test-method status="PASS" signature="end()[pri:0, instance:com.cs.ui.test.ShahidulTest@14654146]" name="end" is-config="true" duration-ms="3088" started-at="2013-12-01T14:44:42Z" finished-at="2013-12-01T14:44:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- end -->
       </class> <!-- com.cs.ui.test.ShahidulTest -->
->>>>>>> 5ef630bc9cbfbde1b03c81227040b45ecf2484e8
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
