@@ -32,12 +32,12 @@ public class Common extends BaseTest
 		
 		try 
 		{
-			driver.findElement(By.className("codesubmit")).click();
+			driver.findElement(By.name("codesubmit")).click();
 		}
 		
 		catch (Exception NoSuchElementException)
 		{
-			System.out.println("Code Submit button not found");
+			System.out.println("Code Unlock button not found");
 		}
 		
 		
